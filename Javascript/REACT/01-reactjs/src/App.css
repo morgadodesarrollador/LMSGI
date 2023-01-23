@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   color: red;
+  padding: 20px;
 }
 .titulo {
   color: white;
@@ -8,8 +9,9 @@
   padding: 10px;;
   border-radius: 20px;
   text-align: center;
-  width: 500px;
+  width: 300px;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .App-logo {

@@ -31,13 +31,13 @@ export const heroes = [
         owner: 'Marvel'
     },
     {
-        id: 6,
-        name: 'Morgado1',
+        id: 7,
+        name: 'Thor',
         owner: 'Marvel'
     },
     {
-        id: 6,
-        name: 'Morgado2',
+        id: 8,
+        name: 'Hulk',
         owner: 'Marvel'
     },
 ];

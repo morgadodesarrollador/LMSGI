@@ -8,12 +8,12 @@ const App = () => {
   return (
     <> 
       <h1 className='titulo'> { titulo } </h1>
-      <HeroesList heroes={heroes} />
+      <h3>Listado de Héroes</h3>
       <ul>
          {
           heroes.map( (heroe) => {
             return (
-              <li>{ heroe.name } </li>
+              <li>{ heroe.name } - { heroe.owner } </li>
             )
           })
          }
@@ -24,6 +24,7 @@ const App = () => {
 
 export default App;
 
+// <HeroesList heroes={heroes} />
 
 // js, jsx
 // ts, tsx --> typescript
