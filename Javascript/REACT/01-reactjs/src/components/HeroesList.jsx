@@ -1,12 +1,12 @@
 import React from 'react'
 import './Heroes.css'
+import Table from 'react-bootstrap/Table';
 export const HeroesList = (props) => {
     
     const heroes = props.heroes;
     console.log(heroes);
     return (
-        <>
-            <table className='tabla_heroes' border={1}>
+             <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
                         <td>Id</td>
@@ -28,8 +28,7 @@ export const HeroesList = (props) => {
                       })
                     }
                 </tbody>
-            </table>
-        
-        </>
+            </Table>
+
   )
 }
