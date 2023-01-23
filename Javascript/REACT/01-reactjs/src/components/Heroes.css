@@ -1,0 +1,12 @@
+.tabla_heroes {
+    background-color: antiquewhite;
+}
+
+.tabla_heroes thead {
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.tabla_heroes td {
+    padding: 5px;
+}

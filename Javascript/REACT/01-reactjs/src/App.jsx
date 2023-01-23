@@ -1,5 +1,5 @@
 import './App.css';
-import { HeroesList } from './componentes/HeroesList';
+import { HeroesList } from './components/HeroesList';
 import { heroes, lenguajes } from './data/heroes';
 
 const App = () => {
@@ -9,26 +9,26 @@ const App = () => {
     <> 
       <h1 className='titulo'> { titulo } </h1>
       <h3>Listado de Héroes</h3>
-      <ul>
-         {
-          heroes.map( (heroe) => {
-            return (
-              <li>{ heroe.name } - { heroe.owner } </li>
-            )
-          })
-         }
-      </ul>
+      <HeroesList heroes={ heroes } />
     </>
   )
 }
 
 export default App;
 
-// <HeroesList heroes={heroes} />
+// 
 
 // js, jsx
 // ts, tsx --> typescript
-
+{/* <ul>
+{
+ heroes.map( (heroe) => {
+   return (
+     <li>{ heroe.name } - { heroe.owner } </li>
+   )
+ })
+}
+</ul> */}
 // <>   </> FRAGMENTO -- mecanismo para agrupar etiquetas html
 
 // function App1() {

@@ -1,12 +1,12 @@
 import React from 'react'
-
+import './Heroes.css'
 export const HeroesList = (props) => {
     
     const heroes = props.heroes;
     console.log(heroes);
     return (
         <>
-            <table border={1}>
+            <table className='tabla_heroes' border={1}>
                 <thead>
                     <tr>
                         <td>Id</td>
