@@ -1,0 +1,100 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+    margin: 0 auto;;
+    width: 90%;
+  /*  height: 400px;*/
+    padding: 5px;;
+    background-color: grey;
+    display: grid;
+ /*   grid-template-columns: auto auto auto auto;*/
+ /*   grid-template-columns: 10% 30% 40% 20%; */
+ /*   grid-template-columns: [c1] 10% [c2] 30% [c3] 40% [c4] 20% [c5];*/
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(4,auto); ;
+ /*   grid-template-rows: [f1] 100px [f2] 200px [f3] 200px [f4] 200px [f5] 100px [f6] ;*/
+    
+  /*  grid-template-rows: repeat(5, 20%) ;*/
+}
+
+
+
+div.container #rojo {
+    background-color: red;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    /*grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    */
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    justify-items:legacy;
+    align-items:center;
+}
+div.container #rojo img {
+    height: 100px;
+}
+div.container #rojo h2{
+    font-size: 22px;
+}
+div.container #rojo #usuario{
+   display: none;
+}
+div.container #rojo nav{
+   grid-column: 1 / 3;
+   background-color: grey;
+   padding: 5px;
+   display: grid;
+   grid-template-columns: repeat(4, 25%);
+}
+div.container #rojo #recogida{
+  display: none;
+}
+
+
+
+div.container #verde  {
+    background-color: green;
+    grid-column: 1 / 5;
+    grid-row: 2 / 4;
+    
+}
+div.container #verde nav {
+    display: grid;
+    grid-template-columns: auto;
+}
+div.container #verde nav a{
+    height: 30px;
+    font-size: 20px;;
+    text-decoration: none;
+    text-align: center;
+}
+
+div.container #azul {
+    background-color: blue;
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+}
+
+div.container #amarillo {
+    display: grid;
+    background-color: yellow;
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+div.container #amarillo article{
+    border: 1px solid black;
+}
+div.container #amarillo article img{
+    height: 100px;;
+}

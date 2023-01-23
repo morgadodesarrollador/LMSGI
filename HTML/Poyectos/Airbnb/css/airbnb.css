@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body > header {
+    background-image: url(../img/header.jpg);
+    height: 683px ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 20px;
+    height: 15%;
+}
+
+header nav a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header nav#viaje {
+    /* flex: 2; */
+    width: 20%;
+    border: 0px solid black;
+    justify-content: flex-start;
+    padding-left: 30px;
+    
+}
+header nav#experiencias {
+    /* flex: 6; */
+    width: 60%;
+    border: 0px solid blue;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+header nav#anfitrion{
+    /* flex: 2; */
+    width: 20%;
+    border: 0px solid red;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+header form {
+    /* flex: 6; */
+    width: 60%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px grey;
+}
+
+header form div {
+    display: flex;
+    flex-flow: column nowrap;
+}
+header form label {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+header form input {
+    height: 20px;
+    font-size: 14px;
+    border: none;
+}
+header form button {
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    width: 100px;    
+    border-radius: 30px;
+    padding: 10px 0;
+}
+header h2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    width: 100%;
+    text-align: center;
+    height: 30%; 
+}
+header button {
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+main {
+    padding-top: 20px;
+
+}
+
+main section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+main section header {
+    width: 100%;
+}
+main section header h2 {
+    padding-left: 40px;
+    text-align: left;
+}
+
+main section article {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 21%;
+
+}
+
+main section article figure {
+    height: 100%;
+    width: 50%;
+    border: 0px solid black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+main section article figure img {
+    height: 130px;
+}
+main section article h4 {
+    width: 50%;
+    height: 20%;
+    font-size: 20px;
+    border: 0px solid black;
+}
+main section article p {
+    height: 20%;
+    font-size: 18px;
+    font-style: italic;
+}

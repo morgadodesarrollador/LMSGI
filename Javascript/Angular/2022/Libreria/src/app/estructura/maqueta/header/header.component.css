@@ -1,0 +1,28 @@
+
+
+header {
+  display:grid;
+  height: 100px;
+  /* background-color: rgba(255,0,0,.3); */
+  grid-template-columns: 1fr 9fr;
+  grid-template-areas:
+    /* "logo  menu  registro"; */
+    "logo  menu  ";
+
+    
+
+}
+
+app-header-logo {
+  grid-area: logo;
+   /* border: 1px solid black; */
+}
+app-header-menu {
+  grid-area: menu;
+   /* border: 1px solid black; */
+}
+app-header-usuario {
+  grid-area: registro;
+  /* border: 1px solid black; */
+}
+

@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container  {
+    display: grid;
+    background-color: rgba(0,0,0,.2);
+    height: 500px;
+    padding: 5px;
+    grid-gap: 5px;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+        "head" 
+        "nav"
+        "main"
+        "lateral"
+        "foot";
+    transition: all 0.5s;
+}
+
+#container  header { /* grid-column: 1 / 4  y grid-row: 1 / 2 */
+    grid-area: head;
+    background-color: black;
+    padding: 5px;
+    color: white; 
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "logo titulo"
+        "mSec mSec";
+}
+#container header figure{
+    grid-area: logo;
+    background-color: rgba(255,0,0,.5);
+}
+#container header h2{
+    grid-area: titulo;
+    background-color: rgba(0,255,0,.5);
+}
+#container header nav{
+    grid-area: mSec;
+    background-color: rgba(0,0,255,.5);
+}
+#container  nav { /* grid-column: 1 / 2  y grid-row: 2 / 4 */
+    grid-area: nav;
+    background-color: red;
+}
+#container  main { /* grid-column: 1 / 4  y grid-row: 4 / 5 */
+    grid-area: main;
+    background-color: yellow;
+}
+#container  aside { /* grid-column: 3 / 4  y grid-row: 2 / 4 */
+    grid-area: lateral;
+    background-color: orange;
+}
+#container  footer { /* grid-column: 1 / 4  y grid-row: 4 / 5 */
+    grid-area: foot;
+    background-color: green;
+}

@@ -1,0 +1,21 @@
+
+
+div.container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+app-header {
+  min-height: 100px;
+  background-color:rgba(0,0,0,.4);
+}
+app-main {
+  grid-area: main;
+  height: 500px;
+  background-color:rgba(255,0,0,.4);
+}
+app-footer {
+  grid-area: footer;
+  min-height: 100px;
+  background-color:rgba(0,255,0,.4);
+}

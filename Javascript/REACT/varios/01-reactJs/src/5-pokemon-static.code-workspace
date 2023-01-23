@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Cursos/IAW/NextJS/FHerrera/5-pokemon-static"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"DockerRun.DisableDockerrc": true
+	}
+}

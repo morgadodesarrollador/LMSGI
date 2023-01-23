@@ -1,0 +1,61 @@
+ <section>
+      <ul class="list-group">
+        <li class="list-group-item" aria-current="true"
+            *ngFor="let genero of generos.genres">
+            <a (click)="getFilter(genero.id)"> {{ genero.name }}/{{ genero.id }} </a>
+        </li>
+
+      </ul>
+      <div id="cuerpo">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item">
+              <a class="page-link" (click)="getPagina(1)">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link"  (click)="getPagina(2)">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link"  (click)="getPagina(3)">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link"  (click)="getPagina(4)">4</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link"  (click)="getPagina(5)">5</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+        <div class="table-responsive">
+          <table class="table" >
+            <thead>
+              <th>Logo</th>
+              <th>Id</th>
+              <th>Idioma</th>
+              <th>Titulo</th>
+              <th>Popularidad</th>
+              <th>Clasificacion</th>
+              <th>Votos</th>
+              <th>Generos</th>
+            </thead>
+            <tbody>
+              <tr *ngFor="let pelicula of peliculas.results">
+                <td>
+                  <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/{{pelicula.poster_path}}">
+                </td>
+                <td><a (click)="getMovie('523931')">{{ pelicula.id }}</a></td>
+                <td>{{ pelicula.original_language }}</td>
+                <td>{{ pelicula.original_title }}</td>
+                <td>{{ pelicula.popularity }}</td>
+                <td>{{ pelicula.adult }}</td>
+                <td> {{ pelicula.vote_average }}</td>
+                <td>{{ pelicula.genre_ids }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+ </section>

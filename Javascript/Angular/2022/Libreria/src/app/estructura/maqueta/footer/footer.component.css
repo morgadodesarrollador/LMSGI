@@ -1,0 +1,22 @@
+
+footer {
+  display:grid;
+  height:130px;
+  background-color: rgba(0,0,255,.3);
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-areas:
+    "contacto  usuario  mapa";
+}
+
+app-footer-mapa {
+  grid-area: mapa;
+  border: 1px solid black;
+}
+app-footer-contacto {
+  grid-area: contacto;
+  border: 1px solid black;
+}
+app-header-usuario {
+  grid-area: usuario;
+  border: 1px solid black;
+}

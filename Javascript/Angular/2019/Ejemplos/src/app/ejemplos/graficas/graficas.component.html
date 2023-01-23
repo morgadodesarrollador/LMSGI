@@ -1,0 +1,49 @@
+
+
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body"> 
+                <h4 class="card-title">{{graficos.grafico1.leyenda}}</h4>
+                <app-doughnut 
+                    [data]="graficos.grafico1.data"
+                    [labels]="graficos.grafico1.labels">
+                </app-doughnut>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{graficos.grafico2.leyenda}}</h4>
+                <app-doughnut 
+                    [data]="graficos.grafico2.data"
+                    [labels]="graficos.grafico2.labels">
+                </app-doughnut>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{graficos.grafico3.leyenda}}</h4>
+                <app-doughnut 
+                    [data]="graficos.grafico3.data"
+                    [labels]="graficos.grafico3.labels">
+                </app-doughnut>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{graficos.grafico4.leyenda}}</h4>
+                <app-doughnut 
+                    [data]="graficos.grafico4.data"
+                    [labels]="graficos.grafico4.labels">
+                </app-doughnut>
+            </div>
+        </div>
+    </div>
+</div>
+<app-graficadona></app-graficadona>

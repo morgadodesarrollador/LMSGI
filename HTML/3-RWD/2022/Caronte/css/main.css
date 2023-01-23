@@ -1,0 +1,37 @@
+
+@media screen and (min-width: 0px) {
+
+    main header {
+        height: 50px;
+        background-color: orange;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+    }
+    main header h3 {
+        width: 60%;
+    }
+    main header nav {
+        width: 35%;
+    }
+    main header nav a::after {
+        content: ' / ';
+    }
+    main header nav a:last-child::after {
+        content: '';
+    }
+    
+}
+
+
+@media screen and (min-width: 650px) {
+
+    
+}
+
+
+@media screen and (min-width: 900px) {
+
+   
+
+}

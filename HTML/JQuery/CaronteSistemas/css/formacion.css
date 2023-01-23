@@ -1,0 +1,53 @@
+
+@media screen and (min-width: 0px) {
+    main #formacion {
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: red;
+    }
+    main #formacion img{
+        width: 200px;
+    }
+}
+@media screen and (min-width: 600px) {
+    main #formacion {
+        display: flex !important;
+        flex-flow: row wrap;
+        background-color: green;
+    }
+    main #formacion h2{
+        width: 100%;
+    }
+    main #formacion p{
+        width: 60%;
+    }
+    main #formacion figure{
+        width: 40%;
+    }
+}
+@media screen and (min-width:900px) {
+    main #formacion {
+       justify-content: space-around;
+    }
+    main #formacion h2{
+        text-align: center;
+        padding: 10px;
+        font-size: 40px;
+    }
+    main #formacion p{
+        width: 45%;
+        order: 2;
+        font-size: 20px;
+        padding: 5px;
+        border: 2px solid grey;
+        background-color: rgba(255,255,255,.4);
+        border-radius: 10px;
+    }
+    main #formacion figure{
+        width: 50%;
+        order: 1;
+    }
+    main #formacion img{
+        width: 100%;
+    }
+}

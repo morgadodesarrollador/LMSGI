@@ -1,0 +1,91 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-areas:
+      "navppal  navppal"
+      "titulo     logo"
+      "registro registro";
+      
+
+    grid-template-columns: 2fr 7fr;
+    grid-template-rows: 100px 100px 200px;
+    gap: 5px;
+}
+header {
+    background-color: grey;
+    padding: 5px;
+}
+header figure {
+    background-color: orange;
+    grid-area: logo;
+}
+header h1 {
+    background-color: yellow;
+    grid-area: titulo;
+}
+header #registro {
+    background-color: red;
+    grid-area: registro
+}
+header nav {
+    background-color: violet;
+    grid-area: navppal
+}
+
+main {
+    background-color: red;
+    display: grid;
+    grid-template-areas: 
+        "headmain headmain  headmain   headmain"
+        "navcat   productos productos  info"
+        ".        .         resumen    resumen";
+    grid-template-columns: 20% 30% 40% 10%;
+    grid-template-rows: 100px 500px 50px;
+    gap: 5px;
+    padding: 5px;;
+}
+main header {
+    grid-area: headmain;
+    background-color: burlywood;
+}
+main #categorias {
+    grid-area: navcat;
+    background-color: green;
+}
+main section {
+    grid-area: productos;
+    background-color: yellow;
+}
+main aside {
+    grid-area: info;
+    background-color: grey;
+}
+main #resumen {
+    grid-area: resumen;
+    background-color: aqua;
+}
+
+footer {
+    background-color: black;
+    display: grid;
+    grid-template-areas: 
+        "sociales mapa";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+    gap: 5px;
+    padding: 5px;;
+}
+footer #sociales {
+    grid-area: sociales;
+    background-color: navajowhite;
+}
+footer #mapa {
+    grid-area: mapa;
+    background-color: yellow;
+}

@@ -1,0 +1,51 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+header  i{
+    display: block;
+    width: 10%;
+    background-color: red;
+}
+header h1{
+    width: auto;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+}
+header nav {
+    width: 30%;
+    display: none;
+}
+main { 
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;;
+}
+
+main nav {
+    width: 100%;;
+    background-color: red;
+    height: 100px;
+}
+
+
+main section {
+    width: 100%;;
+    background-color: yellow;
+    height: 400px;
+}
+
+main aside {
+    width: 100%;;
+    background-color: orange;
+    height: 300px;
+}

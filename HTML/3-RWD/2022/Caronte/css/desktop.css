@@ -1,0 +1,35 @@
+header {
+    background-color: brown;
+}
+header #contacto {
+    width: 50%;
+    order:1;
+}
+header #sociales {
+    width: 50% !important;
+    order:2;
+}
+header figure {
+    order: 3;
+    width: 20%;
+}
+header #ppal{
+    order: 4;
+    width: 80%;
+}
+header h1 {
+    order: 5;
+    display: none;
+}
+header figure {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    align-items: center;
+}
+header figure img{
+    height: 70%;
+}
+header figure h4 {
+    display: flex;
+    color: white;
+}

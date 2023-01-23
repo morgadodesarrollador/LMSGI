@@ -1,0 +1,46 @@
+
+header > i {
+    display: none !important;
+}
+header h1 {
+    width: 30%;
+    order: 2;
+}
+header nav {
+    width: 70%;
+    order: 1;
+    flex-direction: row;;
+}
+main {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+main nav {
+    order:1;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+
+main section {
+    order: 3;
+    width: 80%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color:orange;
+}
+main section h2 {
+    width: 100%;
+}
+main section article {
+    width: 45%;
+}
+
+main aside {
+    order:2;
+    width: 20%;
+    display: block;
+    background-color:green
+}
+

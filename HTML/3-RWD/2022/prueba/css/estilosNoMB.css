@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0
+}
+
+@media (min-width: 0px) and (max-width:599px) {
+    header {
+        background-color: red;
+        color: white;
+    }
+    main {
+        background-color: gray;
+    }
+
+    main article {
+        background-color: antiquewhite;
+    }
+}
+
+@media (min-width: 600px) and (max-width:899px){
+    header {
+        background-color: red;
+    }
+
+    main article {
+        background-color: blue;
+    }
+    
+}
+
+@media (min-width: 900px) {
+    header {
+        background-color: yellow;
+        height: 200px;
+    }
+
+    main article {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+    }
+    
+}

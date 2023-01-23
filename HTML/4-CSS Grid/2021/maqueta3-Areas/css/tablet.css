@@ -1,0 +1,20 @@
+
+#container  {
+    grid-template-columns: calc(20% - 5px) calc(60% - 5px) calc(20% - 5px);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+        "head head head" 
+        "nav  main main"
+        "nav  main main"
+        "foot foot foot";
+}
+#container header {
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "logo titulo"
+        "logo mSec";
+}
+#container aside {
+    display: none;
+}

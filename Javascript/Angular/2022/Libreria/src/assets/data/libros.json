@@ -1,0 +1,121 @@
+[
+  {
+    "id": "1",
+    "title": "MongoDB in Action",
+    "isbn": "1935182870",
+    "pageCount": 120,
+    "publishedDate": "2011-12-12T00:00:00.000-08",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+    "shortDescription": "MongoDB In Action is a comprehensive guide to MongoDB for application developers. The book begins by explaining what makes MongoDB unique and describing its ideal use cases. A series of tutorials designed for MongoDB mastery then leads into detailed examples for leveraging MongoDB in e-commerce, social networking, analytics, and other common applications.",
+    "longDescription": "MongoDB is a document-oriented database that's highly scalable and delivers very high-performance, especially with massive data sets that need to be spread across multiple servers. It blends the things you expect with any database   like indexing, querying, and high availability   with powerful new features like easy horizontal scaling (\"auto-sharding\"), map/reduce aggregation, and a flexible document data model to support dynamic schemas.    MongoDB In Action is a comprehensive guide to MongoDB for application developers. The book begins by explaining what makes MongoDB unique and describing its ideal use cases. A series of tutorials designed for MongoDB mastery then leads into detailed examples for leveraging MongoDB in e-commerce, social networking, analytics, and other common applications.    Along the way, all of MongoDB's major features are covered, including:        * Indexes and explain plans for efficient queries      * Atomic operations for managing simple data structures and manipulating complex, rich documents      * GridFS for storing and managing large binary objects (images, videos, etc.) in MongoDB      * Map-reduce for custom aggregations and reporting      * Master-slave replication and replica sets for automated failover      * Auto-sharding for automated horizontal scaling    The handy reference section on schema design patterns will help ease the transition from the relational data model of SQL to MongoDB's document-based data model. The numerous, detailed examples are implemented in Ruby and include comprehensive explanations.    MongoDB has been gaining traction in the developer community for its speed, flexibility, scalability, and ease of use. With production deployments that include SourceForge, Foursquare, and Shutterfly, MongoDB is proving to be a robust and reliable database system that keeps developers happy. Covering everything from installation to application design to deployment, MongoDB In Action is written for the application developer who wants to take advantage of MongoDB and get up and running quickly.",
+    "status": "PUBLISH",
+    "authors": ["Kyle Banker"]
+  },
+  {
+    "id": "2",
+    "title": "Distributed Application Development with PowerBuilder 6.0",
+    "isbn": "1884777686",
+    "pageCount": 504,
+    "publishedDate": "1998-06-01T00:00:00.000-07",
+    "longDescription": "Distributed Application Development with PowerBuilder 6.0 is a vital source for the PowerBuilder programmer; it provides the sort of detailed coverage of Distributed PowerBuilder that you can find nowwhere else.    The book opens with a discussion of distributed computing in general, as well as its design principles and technologies. Then Distributed PowerBuilder is examined in detail. By building a simple application step by step, the author discusses all of the concepts and components needed for building a PowerBuilder application and shows how to make the application available over a network.    Finally, the author explores how PowerBuilder can be used in distributed solutions both with and without using DPB.    Distributed Application Development with PowerBuilder 6.0 is for any PowerBuilder developer looking for information on distributed computing options with the PowerBuilder environment. IS managers, system architects, and developers using many different technologies can learn how PowerBuilder can be used as all or part of the solution for building distributed applications.    The main topic of this book is Distributed PowerBuilder (DPB). It covers the basics of building a DPB application and walks through each new feature with examples including the Shared object, DataWindow synchronization, Server Push and Web.PB. It also explains distributed computing technologies and design principles so that your application can be built to handle the stresses of a distributed environment.  ",
+    "status": "PUBLISH",
+    "authors": ["Michael J. Barlotta"]
+  },
+  {
+    "id": "3",
+    "title": "Grails in Action",
+    "isbn": "1933988932",
+    "pageCount": 520,
+    "publishedDate": "2009-05-01T00:00:00.000-07",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/gsmith.jpg",
+    "shortDescription": "Grails in Action is a comprehensive guide to the Grails framework. First, the basics: the domain model, controllers, views, and services. Then, the fun! Dive into a Twitter-style app with features like AJAX/JSON, animation, search, wizards   even messaging and Jabber integration. Along the way, you'll discover loads of great plugins that'll make your app shine. Learn to integrate with existing Java systems using Spring and Hibernate. You'll need basic familiarity with Java and the web.",
+    "longDescription": "Web apps shouldn't be hard to build, right  The developers of Grails agree. This hyper-productive open-source web framework lets you \"code by convention\", leaving you to focus on what makes your app special. Through its use of Groovy, it gives you a powerful, Java-like language and full access to all Java libraries. And you can adapt your app's behavior at runtime without a server restart.    Grails in Action is a comprehensive guide to the Grails framework. First, the basics: the domain model, controllers, views, and services. Then, the fun! Dive into a Twitter-style app with features like AJAX/JSON, animation, search, wizards   even messaging and Jabber integration. Along the way, you'll discover loads of great plugins that'll make your app shine. Learn to integrate with existing Java systems using Spring and Hibernate. You'll need basic familiarity with Java and the web. Prior experience with Groovy is not necessary.",
+    "status": "PUBLISH",
+    "authors": ["Glen Smith", "Peter Ledbrook"]
+  },
+  {
+    "id": "4",
+    "title": "Hadoop in Practice, Second Edition",
+    "isbn": "1617292222",
+    "pageCount": 134,
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/holmes2.jpg",
+    "status": "UNPUBLISH",
+    "authors": ["Alex Holmes"]
+  },
+  {
+    "id": "5",
+    "title": "Oculus Rift in Action",
+    "isbn": "1617292192",
+    "pageCount": 345,
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bdavis.jpg",
+    "status": "UNPUBLISH",
+    "authors": ["Bradley Austin Davis", "Karen Bryla", "", "Alex Benton"]
+  },
+  {
+    "id": "6",
+    "title": "OpenStack in Action",
+    "isbn": "1617292168",
+    "pageCount": 456,
+    "publishedDate": "2019-05-01T00:00:00.000-07",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bumgardner.jpg",
+    "status": "PUBLISH",
+    "authors": ["Cody Bumgardner"]
+  },
+  {
+    "id": "7",
+    "title": "PowerShell in Depth, Second Edition",
+    "isbn": "1617292184",
+    "pageCount": 90,
+    "publishedDate": "2018-10-01T00:00:00.000-07",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones6.jpg",
+    "status": "PUBLISH",
+    "authors": ["Don Jones", "Jeffery Hicks", "", "Richard Siddaway"]
+  },
+  {
+    "id": "8",
+    "title": "Practical Probabilistic Programming",
+    "isbn": "1617292338",
+    "pageCount": 200,
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pfeffer.jpg",
+    "status": "UNPUBLISH",
+    "authors": ["Avi Pfeffer"]
+  },
+  {
+    "id": "9",
+    "title": "Unity in Action",
+    "isbn": "161729232X",
+    "pageCount": 300,
+    "publishedDate": "2015-01-01T00:00:00.000-07",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hocking.jpg",
+    "status": "PUBLISH",
+    "authors": ["Joseph Hocking"]
+  },
+  {
+    "id": "10",
+    "title": "Express.js in Action",
+    "isbn": "1617292427",
+    "pageCount": 250,
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hahn.jpg",
+    "status": "UNPUBLISH",
+    "authors": ["Evan M. Hahn"]
+  },
+  {
+    "id": "11",
+    "title": "Learn Git in a Month of Lunches",
+    "isbn": "1617292419",
+    "pageCount": 100,
+    "publishedDate": "2021-07-01T00:00:00.000-07",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/umali.jpg",
+    "status": "PUBLISH",
+    "authors": ["Rick Umali"]
+  },
+  {
+    "id": "12",
+    "title": "Understanding SPAs",
+    "isbn": "1617292435",
+    "pageCount": 80,
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/scott2.jpg",
+    "status": "UNPUBLISH",
+    "authors": ["Emmit A. Scott", "Jr."]
+  }
+]

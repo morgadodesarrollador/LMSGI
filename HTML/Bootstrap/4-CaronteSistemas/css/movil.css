@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: grey;
+}
+
+header #contactos {
+    background-color: green;
+    border: 2px solid red;
+}
+header #sociales {
+    background-color: yellow;
+    border: 2px solid red;
+}

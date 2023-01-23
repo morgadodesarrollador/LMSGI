@@ -1,0 +1,15 @@
+<p>tabla works!</p>
+<button type="button" class="btn btn-primary" (click)="agregar()">Agregar</button>
+<button type="button" class="btn btn-primary" (click)="eliminar()">Eliminar</button>
+<button type="button" class="btn btn-primary" (click)="voltearColores()">Voltear Colores</button>
+<br>
+<select #seleccionarComponentes class="custom-select">
+    <option *ngFor="let item of items; let i = index" [value]="i">componente {{i}}</option>
+</select>
+<br>
+<button type="button" class="btn btn-primary" 
+        (click)="voltearColor(seleccionarComponentes.value)">Voltear Color</button>
+
+
+<app-fila *ngFor="let item of items"></app-fila>
+

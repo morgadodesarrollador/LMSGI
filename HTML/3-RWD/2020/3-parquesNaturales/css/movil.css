@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0; padding:0
+}
+
+header {
+    display: flex;
+    height: 100px;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-image: url(../img/small/sirenas.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+header i#menu {
+    font-size: 24px;
+    color: whitesmoke;
+    font-weight: bold;
+    order:2;
+    width:6%;
+    background-color: none;
+    text-align: left;
+}
+header nav {
+    display: none;
+    order:3;
+}
+header h1 {
+    font-size: 20px;
+    order:1;
+    font-family: Piedra;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    width: 88%;
+    background-color: none;
+}
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgba(145, 106, 106, 0.3);
+
+}
+
+main #intro {
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+
+}
+main #intro h2 {
+    text-align: left;
+    font-size: 20px;
+    color: green;
+    font-family: Piedra;
+}
+main #intro p:nth-child(2){
+    display: block !important;
+ /*   color: red !important; */
+}
+.parrafo {
+
+}
+
+main #intro p{
+    font-family: Texturina;
+    text-align: justify;
+    text-indent: 0.5cm;
+    display: none;
+}
+
+
+main figure {
+    display: flex;
+    flex-flow: row wrap;
+    height: 270px;
+    width: 100%;
+}
+main picture {
+    width:25%;
+    height:50%;
+    border: 0px solid black;
+}
+main picture img {
+    height: 100%;
+}
+main picture:last-child {
+    display: none;
+}
+
+section#novedades{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px;;
+    width: 100%;
+}
+
+section#novedades h2 {
+    color: green;
+    font-family: Piedra;
+    margin-bottom: 10px;;
+}
+section#novedades article{
+    margin-bottom: 10px;
+    border: 2px solid rgba(0,0,0,.2);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(0,0,0,.3);
+}
+section#novedades article time {
+    color: black;
+    font-family: Piedra;
+}
+
+section#novedades article p {
+    color: black;
+    font-family: Piedra;
+}
+
+section#novedades article h3 {
+    margin-top: 10px;
+    color:green;
+
+}
+section#novedades article p {
+    font-family: Texturina;
+}

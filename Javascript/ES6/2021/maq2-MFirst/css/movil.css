@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:grey;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.centrado  {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+header figure {
+    display: none;
+}
+header > i {
+    width: 10%;
+    color: red;
+    font-size: 40px;
+    padding: 5px;
+}
+header h1 {
+    width: 90%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+header nav {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+header nav a {
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none
+}
+header nav a i {
+    color: white;
+    display: none !important;
+}
+header nav a span {
+
+}
+main {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+main nav {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main nav a {
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none
+}
+
+main section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main section article{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0,0,0,.2);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+main section article h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    order: 1;
+}
+main section article figure {
+    order:2
+}
+main section article figure img {
+    height: 90px
+}
+
+main aside {
+    display: none;
+}
+
+footer {
+    background-color: rgba(0,0,0,.8);
+    display: flex;
+    flex-flow: column nowrap;
+}
+footer #mapa {
+    height:50px;
+    background-color:rgba(0,255,0, .4);
+}
+footer #sociales {
+    height:50px;
+    background-color:yellow;
+}

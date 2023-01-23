@@ -1,0 +1,50 @@
+header h1 {
+    font-size: 30px;
+    width: 60%;
+}
+
+header nav {
+    width: 34%;
+    background-color: none;
+}
+
+header nav a {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    justify-content: space-between;
+}
+main #intro {
+    width:50%;
+    order:1;
+}
+
+main figure {
+    width:50%;
+    order:0;
+}
+
+main picture {
+    width: 33%;
+    height: 33%;
+}
+main picture:last-child {
+    display: block;
+}
+
+main section#novedades article{
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main section#novedades article time{
+    order:1
+}
+main section#novedades article p{
+    order:0
+}

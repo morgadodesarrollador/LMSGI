@@ -1,0 +1,18 @@
+<div class="alert alert-primary" role="alert">
+    Componente Padre <br>
+    Comunicación entre hijos
+  </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-5 offset-xs-1">
+            <!-- escuchamos el EventEmitter "textoNuevo" que emite el hijo1, cuando ocurra
+                 asignamos a la variable textoHijo1 = $event (texto emitido -texto )-->
+            <app-hijo1 (textoNuevo)="textoHijo1 = $event"></app-hijo1>
+        </div>
+        <div class=" col-xs-5">
+            <app-hijo2 [textoHijo2]="textoHijo1"></app-hijo2>
+        </div>
+    </div>
+</div>
+ 

@@ -1,0 +1,23 @@
+
+.table-responsive {
+  /* height:500px; */
+}
+
+tbody img {
+  width: 30%;
+}
+
+section {
+  border: 0px solid red;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-around;
+}
+
+section ul {
+  width: 15%
+}
+section div {
+  width: 80%;
+}

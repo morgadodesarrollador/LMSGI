@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+header {
+    height: 100px;
+    display:flex;
+    /*flex-direction: row; /* decidir el eje prinicial 
+    flex-wrap: nowrap;*/
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+header figure {
+    width: 5%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;    
+    align-items: center;
+}
+header figure img {
+    height: 70%;
+}
+header #middle {
+    width: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header #middle > * {
+   /* border: 1px solid black; */
+}
+header  #middle nav {
+    width: 90%;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+header  #middle nav a{
+    padding:10px;
+    border: 1px solid grey;
+    border-radius: 10px;;
+    width: 18%; 
+    text-decoration: none;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    transition: 1s all;
+}
+header  #middle nav a:hover {
+    background-color: rgba(0,0,0,.3);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header  #middle nav a i{
+    width: 20%;
+}
+header #middle nav a span{
+    
+}
+header  #middle nav a:hover i{
+    order: 1;
+}
+
+header #registro {
+    width: 25%;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+header #registro i {
+    font-size: 24px;
+    width:10%;
+    border: 0px solid black;
+    ;
+}
+header #registro #enlaces {
+    width: 90%;
+}
+header #registro #enlaces a {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    
+}
+main {
+    height: 500px;
+    background-color:orange;
+    display: flex;
+    flex-flow: row nowrap; 
+    /*align-items: center;*/ /* marca la alineacion en column */
+    justify-content: space-around;/* marca la alineacion en row */
+}
+main nav {
+    height: 200px;
+    background-color: none;
+    width: 15%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around; /* marca la alineacion en column */
+    align-items: flex-start; /* marca la alineacion en row */
+}
+main nav a  {
+    display: flex; 
+    width: 100%;
+    background-color: grey;
+    padding: 5px;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-size: 20px;
+}
+main nav a span {
+    width: 60%;
+}
+main nav a i {
+    width: 15%;
+    text-align: center;
+}
+main nav a:hover  {
+    background-color: rgba(255,0,0,.3);
+}
+
+
+main #middle {
+    height: 400px;
+    background-color: yellow;
+    width: 65%;
+    display: flex;
+    flex-flow: row wrap;
+}
+main #middle .ordenador  {
+    width: 30%;
+}
+main #middle .ordenador figure  {
+    width: 90%;
+}
+main #middle .ordenador figure img  {
+    width: 100%;
+}
+main #middle .ordenador {
+    border: 2px solid black;
+}
+main aside {
+    height:400px;
+    background-color: blue;
+    width: 15%;
+
+}
+
+footer{
+    height: 200px;
+    background-color:black;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+footer #mapa {
+    height: 100%;
+    width: 50%;
+    background-color: red;
+}
+footer #sociales {
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

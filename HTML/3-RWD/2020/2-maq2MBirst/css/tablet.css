@@ -1,0 +1,24 @@
+
+header i {
+    display: none !important;
+    background-color: royalblue;
+}
+
+header nav{
+    display: block;
+    width: 40%;
+    
+}
+
+header h1 {
+    background-color: rebeccapurple;
+    width: auto;
+}
+
+main nav {
+    width: 20%;
+}
+
+main section {
+    width: 80%;
+}

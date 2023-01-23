@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+header {
+    height: 100px;
+    /*background-color: rgba(0, 255, 0, 0.3);*/
+}
+header figure {
+    border: 0px solid red;
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+
+header figure img{
+    height: 100%;
+}
+
+header div#middle {
+    width: 65%;
+    background-color: none;
+    height: 100%;
+    float: left;
+  /*  text-align: center;*/
+}
+header div#middle h1 {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;;
+    margin-bottom: 0px;
+    color:red;
+}
+header div#middle h1:hover {
+    background-color:red;
+}
+
+header #middle nav {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.menup i {
+
+}
+header #middle nav a {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    background-color:yellow;
+    transition: 2s all;
+}
+header #middle nav a:hover {
+    background-color: green;
+}
+header #middle nav a i {
+    font-size: 20px;
+    color: green;
+    /* transform: rotate(45deg);*/
+}
+header #middle nav a:hover i {
+    color: white;
+    transform: rotate(450deg);
+
+    transition: 2s all;
+}
+header #middle nav a span {
+    font-size: 20px;
+}
+header #middle nav a:hover span {
+    color: red;
+    font-size: 24px;
+    transition: 2s all;
+
+}
+
+header div#registro {
+    float:left;
+    width: 25%;
+    background-color: lawngreen;
+    height: 100%;
+}
+
+
+main {
+    height: 520px;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+main nav {
+    height: 350px;
+    width: 20%;
+    float: left;
+}
+
+main nav a {
+    border: 2px solid black;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: yellow;
+    width: 90%;
+    text-decoration: none;
+    font-size:20px;
+}
+main nav a:hover {
+    background-color: orange;
+    transition: .5s all;
+}
+main nav a:hover i {
+    color: white;
+    right: 10px;
+}
+main nav a:nth-child(1) {
+    margin-top:30px;
+    
+}
+
+
+main #middle {
+    background-color:green;
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+main aside {
+    background-color:red;
+    height: 90%;
+    width: 20%;
+    float: left;
+}
+main aside div {
+    width:95%;
+    height: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px grey;
+    border: 2px solid black;
+    background-color: white;
+    
+}
+main aside #valorados {
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+main aside #conectados {
+    
+    border-radius: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+footer #mapa {
+    background-color:rgba(255, 0, 0, 0.3);
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+footer #sociales {
+    background-color:thistle;
+    height: 100%;
+    width: 50%;
+    float: left;
+}

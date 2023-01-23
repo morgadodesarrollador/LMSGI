@@ -1,0 +1,106 @@
+*  {
+    box-sizing: border-box;
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%); /* 4 columnas */
+    grid-template-rows: [uno] 100px [dos] 200px [tres] 100px [cuatro]; /* 3 filas  */
+    margin: 20px auto;
+    width:80%;
+    border: 1px solid black;
+    background-color: rgba(0,0,0,.1);
+    padding:20px;
+}
+div.container #azul {
+    background-color: rgba(0,0,255,.4);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: uno;
+    grid-row-end: cutro;
+}
+div.container #rojo {
+    background-color: rgba(255,0,0,.4);
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    grid-row-start: uno;
+    grid-row-end: dos;
+}
+div.container #amarillo {
+    background-color: rgba(238, 255, 0, 0.671);
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: dos;
+    grid-row-end: span 2;
+}
+
+main#m1 {
+    background-color: darkgrey;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%; /* 4 columnas */
+    grid-template-rows: 100px 100px 100px;
+    margin: 20px auto;
+    width: 60%;
+    grid-auto-flow: column; /* las áreas de contenido implícito rellenan filas: 2,3,4 */
+}
+
+main#m1 div:nth-child(1){
+    background-color: blue;
+    grid-column: 1 / 2; /* 1 columna */
+    grid-row: 1 / 4;    /* 3 filas   */
+    justify-self: stretch; /* strech es x defecto. Rellena su contenedor */
+}
+/* se colocan implícitamente */
+
+
+main#m1 div:nth-child(2){
+    background-color: green;
+
+}
+
+main#m1 div:nth-child(3){
+    background-color: orange;
+}
+main#m1 div:nth-child(4){
+    background-color: violet;
+    justify-self: center;
+    align-self: strech;
+}
+
+
+main#m1 div:nth-child(5){
+    color: white;
+    background-color: black;
+    grid-column: 4 / 5;
+    grid-row: 1 / 4;
+}
+
+main#m2 div#cab {
+    background-color: blue;
+    grid-area: cab;
+}
+
+main#m2 div#pie {
+    background-color: green;
+    grid-area: pie;
+}
+main#m2 div#menu {
+    background-color: red;
+    grid-area: menu;
+}
+main#m2 div#principal {
+    background-color: yellow;
+    grid-area: principal;
+}
+
+main#m2{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas: 
+        "cab cab cab cab cab"
+        "menu . principal principal principal"
+        "menu pie pie pie pie" ;
+    margin: 20px auto;
+    width: 80%;
+}

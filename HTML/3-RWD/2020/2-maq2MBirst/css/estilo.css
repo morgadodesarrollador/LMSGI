@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 0px){
+    h1 {
+        background-color: #ffa500;
+        color: black;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 576px){
+    h1 {
+        background-color: red;
+        color: aliceblue;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    h1 {
+        background-color: blue;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    h1 {
+        background-color: yellow;
+        color: black;
+        font-size: 25px;
+    }
+    
+}
+

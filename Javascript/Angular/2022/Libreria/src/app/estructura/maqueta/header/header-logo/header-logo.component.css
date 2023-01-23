@@ -1,0 +1,14 @@
+
+
+figure {
+  height: 40%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+figure img {
+  height: 70%;
+}

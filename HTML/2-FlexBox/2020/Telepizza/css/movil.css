@@ -1,0 +1,227 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 400px;
+}
+header #header-top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20%;
+    padding: 5px;
+    background-color: red;
+    
+}
+
+header #header-top #menu {
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header #header-top #menu i {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: white;
+    transition: 1s all;
+    
+}
+
+header #header-top #menu i:hover {
+    color: yellow;
+}
+
+header #header-top #menu span {
+    color: black;
+    transition: 1s all;
+}
+
+header #header-top #menu span:hover {
+    color: white;
+}
+
+header #header-top #logo {
+    display: none;
+}
+
+header #header-top h1 {
+    flex: 0 0 50%;
+}
+
+header #header-top #acceso {
+    flex: 0 0 15%;
+    display: flex;
+    justify-content: center;
+}
+
+header #header-top #acceso i {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: white;
+    transition: 1s all;
+}
+
+header #header-top #acceso i:hover {
+    color: yellow;
+}
+
+header #header-top #acceso span {
+    color: black;
+    transition: 1s all;
+}
+
+header #header-top #acceso span:hover {
+    color: white;
+}
+
+header #header-top #comprar {
+    flex: 0 0 15%;
+    display: flex;
+    justify-content: center;
+}
+
+header #header-top #comprar i {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: white;
+    transition: 1s all;
+}
+
+header #header-top #comprar i:hover {
+    color: yellow;
+}
+
+header #header-top #comprar span {
+    color: black;
+    transition: 1s all;
+}
+
+header #header-top #comprar span:hover {
+    color: white;
+}
+
+header #header-content {
+    height: 100%;
+    padding: 0px;
+}
+
+header #header-content nav {
+    height:  100%;
+    background-color: gray;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px;
+}
+
+header #header-content nav:hover {
+    
+}
+header #header-content nav a {
+    flex: 1 1 auto; 
+    color : white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    transition: 1s all;
+}
+
+header #header-content nav a:hover {
+    background-color: red;
+    
+}
+
+header #header-content nav a i {
+    display: flex;
+    transition: 1s all;
+}
+
+header #header-content nav a i:hover {
+    color: yellow;
+    
+}
+
+
+main {
+    padding: 0px;
+}
+
+main header {
+    height: 100%;
+}
+
+main section {
+    padding: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main section article {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-right-radius:  5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+main section article img {
+    flex: 0 0 auto;
+    height: 100%
+}
+
+main section article .articulo a{
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    border-radius: 5px;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section article .articulo i {
+    transition: 1s all;
+}
+main section article .articulo i:hover {
+    color: yellow;
+}
+main section article .articulo span {
+    color: black;
+    transition: 1s all;
+}
+
+main section article .articulo span:hover {
+    color: white;
+}
+
+main section article .articulo p {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+

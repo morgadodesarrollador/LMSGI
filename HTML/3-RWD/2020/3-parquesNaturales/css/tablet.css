@@ -1,0 +1,87 @@
+header {
+    justify-content: space-around;
+}
+header i#menu {
+    display: none;
+    order:1;
+}
+header nav {
+    display: block;
+    order:2;
+    width: 44%;
+    background-color: none;
+    text-align: left;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+header nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Piedra;
+    font-size: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    order:0;
+    font-family: Piedra;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    width: 50%;
+}
+main {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+main #intro {
+    width:50%;
+    order:0;
+}
+main #intro {
+    height: 100% !important;
+}
+main #intro p{
+    display: block !important;
+ /*   color: red !important; */
+}
+
+main figure {
+    display: flex;
+    flex-flow: column wrap;
+    height: 600px;
+    width:50%;
+    order:1;
+}
+main picture {
+    width: 50%;
+    height: 25%;
+    border: 0px solid black;
+}
+main picture img {
+    height: 100%; width:100%;
+}
+
+main section#novedades{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;;
+    order:2
+}
+main section#novedades article{
+    width: 30%;
+    border-radius: 0;   
+    border: 0px;
+    border-right: 1px solid black !important;
+    padding: 5px;;
+    box-shadow: none;
+}
+
+main section#novedades article:nth-child(1){
+    width: 15%;
+    border:0px;
+}
+
+
+

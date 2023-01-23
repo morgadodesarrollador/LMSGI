@@ -1,0 +1,51 @@
+
+<div class="row">
+    <div class="col-6">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body" >
+            <h5 class="card-title">
+                Barra de Progreso Azul
+            </h5>
+            <button type="button" class="btn btn-xs btn-success" (click)="saludarHijo()">Enviar</button>
+            <input type="text" class="form-control" [(ngModel)]="textoHijo">
+<br>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" 
+                [attr.ariaValuenow]="defecto1"  aria-valuenow="50" aria-valuemin="0" 
+                aria-valuemax="100" [style.width]="defecto1  + '%'" ></div>
+            </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <app-incremetador #incHijo
+                    nombre='Progress Azul' 
+                    [porcentaje]="defecto1"
+                    (actualizaValor) = "defecto1 = $event"></app-incremetador>
+                   <!-- (cambioValor)="actualizar( $event )" -->
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body" (click)="saludarHijo()">
+            <h5 class="card-title">
+                Barra de Progreso Verde
+            </h5>
+            <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" 
+                [attr.ariaValuenow]="defecto2"  aria-valuenow="50" aria-valuemin="0" 
+                aria-valuemax="100" [style.width]="defecto2  + '%'" ></div>
+            </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">                  <!-- [porcentaje]= "defecto" -->
+                <app-incremetador #incHijo
+                    nombre='Progress Verde' 
+                    [porcentaje]= "defecto2"
+                    (actualizaValor)="defecto2 = $event"></app-incremetador>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,129 @@
+header {
+    height: 300px;
+}
+
+header #header-top {
+    display: flex;
+    height: 30%;
+    flex-flow: row wrap;
+}
+
+    header #header-top nav#contactos{
+        display: block;   
+        flex: 0 0 100%;
+        justify-content: flex-start;
+    }
+        header #header-top nav#contactos a{
+            font-size: 20px;
+        }
+    
+    header #header-top nav#sociales{
+        flex: 0 0 25%;
+    }
+    
+        header #header-top nav#sociales a{
+            font-size: 25px;
+            border: 0px solid black;
+        }
+
+
+header #header-content{
+    height: 70%;
+}
+    header #header-content nav{
+        height:  50%;
+        flex-flow: row-reverse nowrap;
+        justify-content: space-around;
+    }
+
+    header #header-content nav a{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        transition: 1s all;
+    }
+    
+    header #header-content nav a i{
+        display: block;
+        color: aliceblue;
+        font-size: 40px;
+        color: green;
+    }
+    header #header-content nav a span{
+        font-size: 18px;
+        color: whitesmoke;
+        font-family: Dosis;
+    }
+    header #header-content nav a#portfolio {
+        display: flex;
+    }
+    header #header-content nav a:hover {
+        background-color: transparent;
+    }
+    header #header-content nav a:hover i{
+        color: whitesmoke;
+    }
+    header #header-content nav a:hover span{
+        color: green;
+    }
+
+header #header-content #header-content-top {
+        height: 50%;
+        justify-content: center;
+    }
+    header #header-content-top a#navicon{
+        display: none;
+    }
+    header #header-content #header-content-top #logo {
+        flex: 0 0 30%;
+    }
+    header #header-content #header-content-top h1 {
+        flex: 0 0 70%;
+    }
+
+main header {
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    main header h2 {
+        flex: 0 0 70%;  
+    }
+    main header nav#breadCrumb{
+        flex: 0 0 30%;
+    }
+
+main section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+    main section  article {
+        flex: 0 0 45%;
+        margin-bottom: 8px;
+        display: flex;
+        flex-flow: column nowrap;
+        height: 250px;
+    }
+
+    main section article img{
+        flex: 0 0 30%;
+        width: 30%;
+        margin: 0 auto;
+    }
+    main section article .datos {
+        flex: 0 0 80%;
+        padding: 5px;
+    }
+    main section article .datos h2 {
+        color:blue;
+    }
+    main section article .datos p {
+        font-size: 14px;
+        text-align: justify;
+        text-indent: 0.5cm;
+        font-family: Charmonman;
+    }

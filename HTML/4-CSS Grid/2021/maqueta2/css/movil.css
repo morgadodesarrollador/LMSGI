@@ -1,0 +1,27 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+}
+
+main {
+    width: 90%;
+    margin: 10px auto;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: 1fr 3fr;
+    background-color: grey;
+    grid-gap: 5px;
+    padding: 5px;   
+}
+
+main div {
+    border: 2px solid red
+}

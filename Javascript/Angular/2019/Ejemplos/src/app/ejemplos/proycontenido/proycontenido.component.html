@@ -1,0 +1,24 @@
+<h3>Componente Padre</h3>
+<h4>Proyectando contenido</h4>
+
+<!-- proyectaremos 3 contenidos distintos -->
+<app-hijo>
+    <ng-container cabecera>Cabeceera de la Tarjeta</ng-container>
+    <ng-container cuerpo>
+        <app-cproyectado></app-cproyectado>
+    </ng-container>
+    <ng-container pie>Pie de la Tarjeeta</ng-container>
+</app-hijo>
+
+<!--
+<p>Caso1-. Proyectamos un texto</p>
+<app-hijo>Hola Mundo</app-hijo>    
+<p>Caso2-. Proyectamos un html</p>
+<app-hijo>
+    <button type="button" class="btn btn-success" (click)="mensaje()">Success</button>
+</app-hijo> 
+<p>Caso3-. Proyectamos un componente</p>
+<app-hijo>
+    <app-cproyectado></app-cproyectado>
+</app-hijo>       
+-->

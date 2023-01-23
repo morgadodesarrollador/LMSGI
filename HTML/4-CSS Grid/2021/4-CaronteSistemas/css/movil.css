@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+#container  {
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+        "header"
+        "main"
+    ;
+}
+#container > header  {
+    background-color: grey;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: .5fr .5fr 2fr;
+    grid-template-areas: 
+       "navSociales navSociales navSociales"
+       "logo        titulo      navicon"
+       "navppal     navppal     navppal"
+    ;
+}
+#container > header {
+    grid-area: header;
+    background-color: grey;
+    grid-gap: 0;
+}
+
+
+#container > header nav#contactos{
+    display: none;
+}
+#container  header #sociales{
+    grid-area: navSociales;
+    font-size: 30px;
+    justify-self: right;
+    padding: 10px;
+    background-color: red;
+}
+#container  header nav#principal{
+    grid-area: navppal;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,fr);
+    width: 95%;
+    background-color: yellow;
+    margin: 0 auto;
+    align-self: center;
+}
+#container header nav#principal a{
+    height: 20px;
+}
+
+#container header #logo {
+    grid-area: logo;
+    background-color: red;
+}
+#container  header h1 {
+    grid-area: titulo;
+    background-color: green;
+}
+#container  header #navicon {
+    grid-area: navicon;
+    background-color: yellow;
+    font-size: 30px;
+    justify-self: right;
+    padding-right: 10px;
+}
+
+#container main {
+    grid-area: main;
+    background-color: orange;
+}

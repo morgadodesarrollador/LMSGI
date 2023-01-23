@@ -1,0 +1,49 @@
+
+header {
+    height: 200px;
+}
+
+header #header-top {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    flex-flow: row nowrap;
+}
+
+    header #header-top nav#contactos{
+        flex: 0 0 80%;
+    }
+    header #header-top nav#sociales{
+        flex: 0 0 20%;
+    }
+
+header #header-content{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 70%;
+}
+    header #header-content nav {
+        flex: 0 0 80%;
+        height: 100%;
+    }
+    header #header-content #header-content-top {
+        flex: 0 0 20%;
+        flex-flow: column nowrap;
+        height: 100%;
+    }
+        header #header-content #header-content-top #logo {
+            flex: 0 0 70%;
+            width: 50%;
+        }
+
+        header #header-content #header-content-top h1{
+            font-size: 20px;
+            flex: 0 0 30%;
+        }
+main section {
+
+}
+main section  article {
+    flex: 0 0 30%;
+}

@@ -1,0 +1,54 @@
+
+header {
+    background-color: grey;
+    display: grid;
+    grid-template-rows: repeat(2, 50px) repeat(2, 100px);
+    grid-template-columns: 4fr 4fr 2fr;
+    grid-template-areas: 
+      "contacto contacto ."
+      ".        .        sociales"
+      "logo     titulo1  ."
+      "navppal  navppal  navppal";
+}
+
+header nav#contacto {
+    display: block;
+}
+
+header button {
+    display: none;
+}
+
+header nav#ppal {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
+}
+
+header nav#ppal a:nth-child(1){
+    display: grid;
+}
+header nav#ppal a {
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+        "icono"
+        "texto"
+    ;
+    justify-self: center;
+    align-self: center;
+    border: 0px solid red;
+    text-align: center;
+}
+header #ppal a span {
+    grid-area: texto;
+    font-size: 20px
+}
+header nav#ppal a i {
+    grid-area: icono;
+    display: block ;
+    font-size: 30px;
+    color: green;
+}

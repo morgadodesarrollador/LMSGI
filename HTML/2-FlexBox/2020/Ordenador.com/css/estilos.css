@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 150px;
+    background-color: rebeccapurple;
+    align-items: center;
+}
+
+header figure {
+    height: 90%;
+    width: 20%;
+    background-color: rosybrown;
+}
+
+header figure img {
+    height: 100%;
+}
+
+header h1 {
+    display: flex; flex-flow: column nowrap; justify-content: center;
+    width: 50%;
+    background-color: seagreen;
+    height: 45%;
+}
+
+header nav {
+    display: flex; flex-flow: row nowrap; justify-content: space-around; align-items: center;
+    background-color: whitesmoke;
+    width: 32%;
+    height: 30%;
+}
+
+header nav a {
+    font-family: 'Syne Mono';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main {
+    height: 500px;
+    background-color: grey;
+    display: flex; flex-flow: row nowrap;
+}
+
+main nav {
+    width: 15%;
+    background-color: yellow;
+    height: 40%;
+    display: flex; flex-flow: column nowrap; justify-content: space-around; align-items: center;
+
+}
+
+main nav a {
+    height: 30px;
+    width: 95%;
+    background-color: gainsboro;
+}
+
+main section {
+    width: 65%;
+    height: 80%;
+    background-color: hotpink;
+}
+
+main aside {
+    width: 20%;
+    height: 90%;
+    background-color: khaki;
+    display: flex; flex-flow: column nowrap; justify-content: space-around; align-items: center;
+}
+
+main aside #vistos {
+    height: 40%;
+    width: 95%;
+    background-color: orange;
+}
+main aside #valorado {
+    height: 40%;
+    width: 95%;
+    background-color:green;
+}

@@ -1,0 +1,29 @@
+
+nav{
+  display:flex;
+  width:95%;
+  flex-flow: row nowrap;
+  justify-content:space-around;
+  background-color: grey;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  width: 18%;
+  border: 1px solid white;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 4px
+}
+nav a:hover i {
+  color: rgba(0,0,255,.4);
+}
+nav a i {
+  display: inline-block;
+  margin-right: 5px;
+}
+nav a span {
+  font-size: 18px;
+}

@@ -1,0 +1,19 @@
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  align-items: center;
+  grid-template-areas:
+  "logo menu usuario"
+}
+
+app-header-logo {
+  grid-area: logo;
+}
+app-header-menu {
+  grid-area: menu;
+}
+
+app-header-usuario{
+  grid-area: usuario
+}

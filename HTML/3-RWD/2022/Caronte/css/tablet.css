@@ -1,0 +1,90 @@
+header {
+    background-color: none;
+}
+
+header #contacto {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background-color: ghostwhite;
+    order:1;
+}
+header #contacto a {
+    font-size: 20px;
+    display: flex;
+    margin-right: 5px;
+}
+header #contacto a i {
+    order:1;
+    padding: 3px;
+}
+header #contacto a span {
+    order:2;
+    padding: 3px;
+}
+header #sociales {
+    width: 100%;
+    order:2;
+}
+header figure {
+    order:3;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header #sociales a {
+    border-radius: 0px !important; 
+    border: 0px solid black !important;
+}
+header h1 {
+    border: 0px solid black;
+    border-radius: 0px;
+    order: 4;
+    width: 60%;
+}
+header button{
+    display: none;
+}
+header #ppal{
+    order:5;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px
+}
+header nav#ppal a:nth-child(1){
+    display: flex;
+}
+header #ppal a {
+    border: 0px solid black;
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+header #ppal a:hover i {
+    color: yellow;
+    transform: translateY(40px);
+}
+header #ppal a:hover span {
+    color: red;
+    transform: translateY(-40px) ;
+};
+header #ppal span{
+    font-size: 20px !important;
+    /* order: 2 */
+    transition: 1s all;
+   
+}
+header #ppal i{
+    display: block !important;
+    color: green;
+    font-size: 30px;
+    /* order:1; */
+    transition: 1s all;
+
+}
+
+

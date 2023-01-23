@@ -1,0 +1,7 @@
+<p>nieto-a !</p>
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Escribe un mensaje:</label>
+    <textarea class="form-control" name="msg"
+        [(ngModel)]="mensaje"    rows="3"
+        (input) = "cambairTexto($event.target.value)"></textarea>
+  </div>

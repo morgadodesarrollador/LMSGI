@@ -1,0 +1,247 @@
+* { 
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+.contorno {
+    border: 1px solid red;
+}
+.negro {
+    background-color: black;
+}
+
+body {
+    background-color: rgba(0,0,0,.2);
+}
+@media screen and (min-width: 0px) {
+
+    header a {
+        text-decoration: none;
+        color: black;
+    }
+    header {
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: space-around;
+       align-items: center;
+       background-color: black;
+    }
+    header nav#sociales {
+        width: 100%;
+        padding: 10px;
+        background-color: ghostwhite;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+    header nav#sociales a {
+        font-size: 20px;
+        padding-right: 10px;
+        border: 2px solid black;
+        border-radius: 5px ;
+        padding: 10px;
+        margin-right: 10px;
+        width: 50px;
+        text-align: center;
+
+    }
+    header nav#sociales a:hover {
+        transition: all 1s;
+        background-color: grey;
+        color: blue;
+        /* font-size: 25px ; */
+        transform: scale(1.5);
+        /* transform: translate(150px, 150px); */
+        transform: rotate(2500deg);
+        
+    }
+    header #contacto {
+        display: none;
+    }
+    header figure {
+        height: 100px;
+    }
+    header figure img{
+        height: 90%;
+    }
+    header figure h4 {
+        display: none;
+    }
+
+    header h1 {
+        width: 60%;
+        font-size: 40px;
+        color: whitesmoke;
+        border: 2px solid red;
+        border-radius: 20px;
+    }
+    header button{
+        height: 50px;
+        font-size: 30px;
+        padding: 10px;
+        background-color: transparent ;
+        color: whitesmoke;
+        border: 0;
+        /* color: white; */
+    }
+    header #ppal{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 95%;
+    }
+    header nav#ppal a:nth-child(1){
+        display: none;
+    }
+    header #ppal a {
+        padding: 5px;
+        border: 1px solid white;
+        margin-bottom: 5px;
+        color: whitesmoke;
+    }
+    header #ppal a:hover {
+        /* background-color: yellow; */
+    }
+    header #ppal a span {
+        font-size: 25px;
+    }
+
+    header #ppal a i {
+        display: none;
+
+    }
+    
+}
+
+
+@media screen and (min-width: 650px) {
+
+    header {
+        background-color: none;
+    }
+
+    header #contacto {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        background-color: ghostwhite;
+        order:1;
+    }
+    header #contacto a {
+        font-size: 20px;
+        display: flex;
+        margin-right: 5px;
+    }
+    header #contacto a i {
+        order:1;
+        padding: 3px;
+    }
+    header #contacto a span {
+        order:2;
+        padding: 3px;
+    }
+    header #sociales {
+        width: 100%;
+        order:2;
+    }
+    header figure {
+        order:3;
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header #sociales a {
+        border-radius: 0px !important; 
+        border: 0px solid black !important;
+    }
+    header h1 {
+        border: 0px solid black;
+        border-radius: 0px;
+        order: 4;
+        width: 60%;
+    }
+    header button{
+        display: none;
+    }
+    header #ppal{
+        order:5;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 100px
+    }
+    header nav#ppal a:nth-child(1){
+        display: flex;
+    }
+    header #ppal a {
+        border: 0px solid black;
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    header #ppal a:hover i {
+        color: yellow;
+        transform: translateY(40px);
+    }
+    header #ppal a:hover span {
+        color: red;
+        transform: translateY(-40px) ;
+    };
+    header #ppal span{
+        font-size: 20px !important;
+        /* order: 2 */
+        transition: 1s all;
+       
+    }
+    header #ppal i{
+        display: block !important;
+        color: green;
+        font-size: 30px;
+        /* order:1; */
+        transition: 1s all;
+
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+
+    header {
+        background-color: brown;
+    }
+    header #contacto {
+        width: 50%;
+        order:1;
+    }
+    header #sociales {
+        width: 50% !important;
+        order:2;
+    }
+    header figure {
+        order: 3;
+        width: 20%;
+    }
+    header #ppal{
+        order: 4;
+        width: 80%;
+    }
+    header h1 {
+        order: 5;
+        display: none;
+    }
+    header figure {
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        align-items: center;
+    }
+    header figure img{
+        height: 70%;
+    }
+    header figure h4 {
+        display: flex;
+        color: white;
+    }
+
+}

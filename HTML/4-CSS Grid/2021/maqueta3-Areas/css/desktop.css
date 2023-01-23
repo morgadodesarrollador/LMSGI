@@ -1,0 +1,26 @@
+
+
+#container  {
+    grid-template-columns: 1.5fr 7fr 1.8fr;
+  /*  grid-template-columns: 15% 70% 15%;*/
+  /*  grid-template-rows: 25% 30% 30% 15%;*/
+    grid-template-rows: 2.5fr 3fr 3fr 1.5fr;
+    
+    grid-template-areas: 
+        "head head head" 
+        "nav  main lateral"
+        "nav  main lateral"
+        "foot foot lateral";
+}
+#container header {
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: 1fr ;
+    grid-template-areas: 
+        "mSec titulo logo";
+}
+#container aside {
+    display: block;
+    
+}

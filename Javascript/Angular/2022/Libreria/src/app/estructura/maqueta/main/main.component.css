@@ -1,0 +1,31 @@
+
+
+
+main {
+  border: 0px solid blue;
+  display:grid;
+  height:530px;
+  /* background-color: rgba(0,255,0,.3); */
+  /* grid-template-columns: 1.5fr 7fr 2fr; */
+
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "menu  cuerpo  lateral";
+}
+
+app-main-menu {
+  width: 100%;
+  grid-area: menu;
+  /* border: 1px solid black; */
+}
+app-main-cuerpo {
+  border: 2px solid red;
+
+  grid-area: cuerpo;
+  /* border: 1px solid black; */
+  /* background-color: grey; */
+}
+app-main-aside {
+  grid-area: lateral;
+  /* border: 1px solid black; */
+}

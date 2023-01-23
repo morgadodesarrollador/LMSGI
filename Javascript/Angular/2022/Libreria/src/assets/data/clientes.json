@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Anartz Mugika Ledo",
+    "email": "mugan86@gmail.com",
+    "website": "anartz-mugika.com",
+    "github": "mugan86",
+    "twitter": "mugan86",
+    "books": ["1", "2", "3", "4", "5", "6", "7", "12"]
+  },
+  {
+    "id": "2",
+    "name": "Ruslan González",
+    "email": "ruslan.email@gmail.com",
+    "github": "ruslanguns",
+    "twitter": "ruslangonzalez",
+    "books": ["1", "2", "3", "4", "6", "8"]
+  },
+  {
+    "id": "3",
+    "name": "Pepe Robles",
+    "email": "contacto@naviscode.com",
+    "website": "naviscode.com/",
+    "twitter": "NavisCode",
+    "books": ["1", "2", "3"]
+  },
+  {
+    "id": "4",
+    "name": "Gabriel López",
+    "email": "contacto@perdinand.com",
+    "website": "perdinand.com",
+    "books": ["1", "2", "4", "7"]
+  }
+]

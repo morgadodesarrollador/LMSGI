@@ -1,0 +1,82 @@
+* { 
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+header {
+    background-color: grey;
+    display: grid;
+    grid-template-rows: 50px 100px 200px;
+    grid-template-columns: 2fr 7fr 1fr;
+    grid-template-areas: 
+      "contacto sociales sociales"
+      "logo     titulo1  navicon"
+      "navppal  navppal  navppal";
+}
+header #contacto {
+    grid-area: contacto;
+    display: none;
+}
+header #sociales {
+    grid-area: sociales;
+    border: 0px solid black ;
+    align-self: center;
+    justify-self: right;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: 30px;
+}
+header #sociales a {
+    font-size: 25px;
+}
+header #logo {
+    grid-area: logo;
+}
+header #logo {
+    height: 100%;
+    border: 0px solid black ;
+    padding: 5px;
+}
+header #logo img {
+    height: 100%;
+}
+header h1 {
+    grid-area: titulo1;
+    align-self: center;
+    justify-self: center;
+}
+
+header button{
+    grid-area: navicon;
+    padding: 5px;
+    background-color: transparent !important  ;
+    border: none !important;
+    font-size: 30px;
+    color: white;
+}
+
+header nav#ppal {
+    grid-area: navppal;
+    border: 0px solid black ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    width: 95%;
+    margin: 0 auto;
+    /* margin-top: 5px; */
+}
+header nav#ppal a:nth-child(1){
+    display: none;
+}
+header #ppal a {
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 10px;
+    color: whitesmoke;
+    border: 2px solid white;
+}
+header #ppal a i {
+    display: none;
+}

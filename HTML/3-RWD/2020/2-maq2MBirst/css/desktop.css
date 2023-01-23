@@ -1,0 +1,24 @@
+
+header nav{
+    order:1;
+}
+
+header h1 {
+    order:2
+}
+
+main nav {
+    width: 20%;
+    order: 2;
+}
+
+main section {
+    width: 50%;
+    order: 1;
+}
+
+
+main aside {
+    width: 30%;
+    order: 0;
+}

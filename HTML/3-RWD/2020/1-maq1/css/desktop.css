@@ -1,0 +1,36 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+
+main { 
+    display: flex;
+    flex-flow: row nowrap;
+    height: 600px;;
+}
+
+main nav {
+    width: 20%;;
+    background-color: red;
+    height: 200px;
+}
+
+
+main section {
+    width: 60%;;
+    background-color: yellow;
+    height: 400px;
+}
+
+main aside {
+    width: 20%;;
+    background-color: orange;
+    height: 300px;
+}

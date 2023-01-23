@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 450px;
+    padding: 0px;
+}
+
+header #header-top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    height: 20%;
+    padding: 5px;
+}
+
+    header #header-top nav#contactos{
+        display: none;
+        flex: 0 0 70%;
+        
+    }
+
+    header #header-top nav#contactos a{
+        color: black;
+        font-size: 30px;
+        border: 0px solid black;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        flex: 0 0 22%;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    header #header-top nav#contactos a span{
+        font-size:20px;
+        
+    }
+
+    header #header-top nav#sociales{
+        
+        flex:0 0 40%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    header #header-top nav#sociales a{
+        color: black;
+        font-size: 30px;
+        border: 2px solid black;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        flex: 0 0 22%;
+        border-radius: 5px;
+    }
+
+
+header #header-content{
+    height: 80%;
+    padding: 0px;
+}
+
+    header #header-content #header-content-top{
+        background-color: black;
+        display: flex;
+        height: 40%;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+    }
+
+        header #header-content #header-content-top #logo {
+            height: 80%;
+
+            flex: 3 0 10%;
+            background-image: url(../img/caronte.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            border: 0px solid white;
+            background-position: right;
+        }
+        header #header-content #header-content-top #logo img {
+            height: 90%;
+        }
+
+        header #header-content #header-content-top h1 {
+            color: white;
+            flex: 3 3 auto;
+            font-size: 40px;
+            border: 0px solid white;
+
+        }
+
+        header #header-content #header-content-top a {
+            color: white;
+            flex: 1 2 10%;
+            font-size: 40px;
+            border: 0px solid white;
+            text-align: right;
+            
+        }
+
+    header #header-content nav{
+        height:  60%;
+        background-color: black;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 10px;
+    }
+        header #header-content nav a{
+            flex: 1 0 auto; 
+            color : ghostwhite;
+            text-decoration: none;
+            font-size: 25px;
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            padding-bottom: 3px;
+            transition: 1s all;
+        }
+        header #header-content nav a span {
+            font-family: Unlock;
+        }
+
+        header #header-content nav a:hover {
+            background-color: rgba(230, 126, 34, .8);
+            border: 0px solid white;
+            color: black;
+        }
+        header #header-content nav a#portfolio {
+            display: none;
+        }
+        header #header-content nav a i {
+            display:none;
+        }
+        
+main {
+    padding: 0px;
+}
+    main header {
+        height: 80px;
+        background-color: orange;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        padding: 5px;
+    }
+    main header h2 {
+        flex: 0 0 100%;
+        font-size: 30px;
+        color: white;
+        font-family: Unlock;
+    }
+    main header nav#breadCrumb{
+        flex: 0 0 50%;
+        
+    }
+    main header nav#breadCrumb a{
+        color:blue;
+        text-decoration: none;
+        font-family: Dosis;
+    }
+
+    main section {
+        padding: 3px;
+    }
+    main section  article {
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100px;
+        border: 2px solid black;
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 3px;
+        margin-bottom: 3px;
+    }
+    main section article img{
+        flex: 0 0 auto;
+        height: 100%;
+    }
+    main section article .datos {
+
+        padding: 5px;
+    }
+    main section article .datos h2 {
+        color:blue;
+    }
+    main section article .datos p {
+        font-size: 14px;
+        text-align: justify;
+        text-indent: 0.5cm;
+    }
+
+
+
