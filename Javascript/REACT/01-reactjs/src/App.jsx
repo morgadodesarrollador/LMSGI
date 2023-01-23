@@ -1,14 +1,9 @@
 import './App.css';
 import { HeroesList } from './componentes/HeroesList';
 import { heroes, lenguajes } from './data/heroes';
-// js, jsx
-// ts, tsx --> typescript
-
-// <>   </> FRAGMENTO -- mecanismo para agrupar etiquetas html
 
 const App = () => {
   console.log(heroes);
-  console.log('Hola Mundo desde React 18');
   let titulo = "El Corte Inglés";
   return (
     <> 
@@ -28,6 +23,12 @@ const App = () => {
 }
 
 export default App;
+
+
+// js, jsx
+// ts, tsx --> typescript
+
+// <>   </> FRAGMENTO -- mecanismo para agrupar etiquetas html
 
 // function App1() {
 //   console.log (heroes);
