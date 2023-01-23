@@ -3,12 +3,10 @@ import { HeroesList } from './components/HeroesList';
 import { heroes, lenguajes } from './data/heroes';
 
 const App = () => {
-  console.log(heroes);
-  let titulo = "El Corte Inglés";
+  let titulo = "Los Superhéroes";
   return (
     <> 
       <h1 className='titulo'> { titulo } </h1>
-      <h3>Listado de Héroes</h3>
       <HeroesList heroes={ heroes } />
     </>
   )
