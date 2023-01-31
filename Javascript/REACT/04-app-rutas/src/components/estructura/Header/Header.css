@@ -1,0 +1,15 @@
+
+
+header {
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+figure {
+    width: 20%;
+}
+img {
+    height: 80px;
+}

@@ -1,0 +1,10 @@
+
+header {
+    height: 120px;
+    background-color: aqua;
+}
+
+header  h1 {
+    color: red;
+    text-align: center;;
+}

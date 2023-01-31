@@ -1,0 +1,28 @@
+
+
+footer {
+    height: 120px;
+    background-color: blue;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+footer h2 {
+    color: red;
+}
+footer #sociales {
+    background-color: green;
+    /* color: black; */
+    height: 90%;
+    width: 40%;
+}
+
+footer #mapa {
+    background-color: yellow;
+    /* color: black; */
+    height: 90%;
+    width: 40%;
+}
+

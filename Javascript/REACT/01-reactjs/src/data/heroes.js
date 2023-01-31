@@ -40,6 +40,11 @@ export const heroes = [
         name: 'Hulk',
         owner: 'Marvel'
     },
+    {
+        id: 9,
+        name: 'Satán',
+        owner: 'DC'
+    },
 ];
 
 

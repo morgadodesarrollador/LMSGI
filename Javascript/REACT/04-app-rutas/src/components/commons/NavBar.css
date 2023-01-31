@@ -1,0 +1,14 @@
+
+nav {
+    width: 60%;;
+    height: 90%;
+    background-color: red;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+}

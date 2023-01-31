@@ -1,13 +1,27 @@
 import './App.css';
-import { HeroesList } from './components/HeroesList';
-import { heroes, lenguajes } from './data/heroes';
+import './index.css';
+// import { HeroesList } from './components/HeroesList';
+// import { heroes, lenguajes } from './data/heroes';
+
+import Header from './components/structura/header/Header';
+import Main from './components/structura/main/Main';
+import { Footer } from './components/structura/footer/Footer';
+// import { Header, Main, Footer } from './components/structura/index';
+
 
 const App = () => {
   let titulo = "Los Superhéroes";
   return (
     <> 
-      <h1 className='titulo'> { titulo } </h1>
-      <HeroesList heroes={ heroes } />
+      <Header />
+      <Main />
+      <Footer />
+      {/* <h1 className='titulo'> { titulo } </h1>
+      <HeroesList heroes={ heroes }/> */}
+    
+     
+      {/* <HeroesList heroes={ heroes } /> */}
+      
     </>
   )
 }
