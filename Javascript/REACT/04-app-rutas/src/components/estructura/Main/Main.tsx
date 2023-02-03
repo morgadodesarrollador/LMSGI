@@ -1,5 +1,7 @@
 import React from 'react'
-import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+import NavBar from '../../commons/NavBar';
+import Rutas from '../../commons/Routes';
 import './Main.css';
 
 

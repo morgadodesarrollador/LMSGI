@@ -1,0 +1,15 @@
+
+#servicios {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+#servicios nav{
+    width: 30%;
+    background-color: rgba(0,0,255, .3);
+    display: flex;
+    justify-content: space-around  ;
+    height: 50px;
+    align-items: center;
+}
