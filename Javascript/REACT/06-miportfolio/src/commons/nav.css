@@ -1,0 +1,15 @@
+
+nav {
+    height: 80%;
+    width: 70%;
+    background-color: rgba(0,0,255,.1);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+}
