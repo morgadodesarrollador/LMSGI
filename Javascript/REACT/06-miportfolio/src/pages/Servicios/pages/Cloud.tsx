@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image, Table } from 'react-bootstrap'
 
-const solucionces = [
+const soluciones = [
   { 
     name: 'Azure',
     empresa: 'Microsoft',
@@ -17,12 +17,14 @@ const solucionces = [
   { 
     name: 'Google Cloud',
     empresa: 'Google',
-    logo: ''
+    logo:'https://e7.pngegg.com/pngimages/875/440/png-clipart-logo-google-cloud-platform-cloud-computing-font-cloud-computing-text-cloud.png',
+    nive: 'Associate Cloud Engineer'
   },
   { 
     name: 'OpenShift',
     empresa: 'RedHat',
-    logo: ''
+    logo: 'https://e7.pngegg.com/pngimages/540/370/png-clipart-openshift-red-hat-kubernetes-docker-microsoft-azure-cloud-computing-text-trademark.png',
+    nivel: 'Red Hat Certified Specialist in OpenShift Administration '
   },
 ]
 
