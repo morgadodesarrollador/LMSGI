@@ -1,24 +1,28 @@
 import React from 'react'
 import { Image, Table } from 'react-bootstrap'
 
-const soluciones = [
+const solucionces = [
   { 
     name: 'Azure',
     empresa: 'Microsoft',
+    nivel: 'Microsoft Azure Administrator Associate',
     logo: 'https://img2.freepng.es/20180807/efq/kisspng-logo-microsoft-azure-cloud-computing-microsoft-cor-partner-axiomtek-5b69e8495c03b5.7526773415336674013769.jpg'
   },
   { 
     name: 'AWS',
     empresa: 'Amazon',
+    nivel: 'AWS Certified DevOps Engineer - Professional',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png'
   },
   { 
     name: 'Google Cloud',
-    empresa: 'Google'
+    empresa: 'Google',
+    logo: ''
   },
   { 
     name: 'OpenShift',
-    empresa: 'RedHat'
+    empresa: 'RedHat',
+    logo: ''
   },
 ]
 
