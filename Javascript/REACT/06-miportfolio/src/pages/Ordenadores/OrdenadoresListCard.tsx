@@ -1,5 +1,7 @@
 import React from 'react'
 
+const equipos = [];
+
 const OrdenadoresListCard = () => {
   return (
     <div>
