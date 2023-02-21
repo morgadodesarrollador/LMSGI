@@ -1,4 +1,4 @@
-import { CloudPage } from './pages/Cloud';
+import { CloudPage } from "./pages/Cloud";
 
 
 

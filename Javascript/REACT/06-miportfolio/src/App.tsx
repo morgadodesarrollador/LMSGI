@@ -8,11 +8,13 @@ import { ServiciosPage } from './pages/Servicios/Servicios';
 import { FormacionPage } from './pages/Formacion/Formacion';
 import { QsomosPage } from './pages/Qsomos/Qsomos';
 import { ContactoPage } from './pages/Contacto/Contacto';
-import { CloudPage } from './pages/Servicios/pages/Cloud';
 import { WebPage } from './pages/Servicios/pages/Web';
 import { OraclePage } from './pages/Formacion/pages/oracle';
 import { FibraPage } from './pages/Formacion/pages/fibra';
 import { CiscoPage } from './pages/Formacion/pages/cisco';
+import { CloudPage } from './pages/Servicios/pages/Cloud';
+import { HomePage } from './pages/Home/Home';
+import OrdenadoresList from './pages/Ordenadores/OrdenadoresList';
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
         </header>
         <Routes>
           <Route path='/' element= {<Main></Main>}>
+            <Route path='home' element={ <HomePage />} />  
             <Route path='servicios' element={ <ServiciosPage />} >
               <Route path='cloud' element={ <CloudPage />} />  
               <Route path='dweb' element={ <WebPage />} />    
@@ -32,12 +35,13 @@ function App() {
               <Route path='oracle' element={<OraclePage />} />
               <Route path='fibra' element={<FibraPage />} />
               <Route path='cisco' element={<CiscoPage />} />
-              
             </Route>       
             <Route path='qsomos' element={ <QsomosPage />} />       
             <Route path='contacto' element={ <ContactoPage />} />           
           </Route>
+          <Route path='ordenadores' element={ <OrdenadoresList />} />  
         </Routes>
+        
       </div>
     </>
   );

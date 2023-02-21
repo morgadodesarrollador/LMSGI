@@ -4,9 +4,11 @@ import './nav.css';
 export const NavBar = () => {
   return (
     <nav>
-        <Link to='/'>Home</Link>
-        <Link to='servicios'>Sersvicios</Link>
+        <Link to='home'>Home</Link>
+        <Link to='servicios'>Servicios</Link>
         <Link to='formacion'>Formacion</Link>
+        <Link to='ordenadores'>Ordenadores</Link>
+        
         <Link to='qsomos'>Quienes Somos</Link>
         <Link to='contacto'>Contacto</Link>
     </nav>

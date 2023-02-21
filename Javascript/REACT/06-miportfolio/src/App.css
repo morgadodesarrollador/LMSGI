@@ -8,11 +8,15 @@ header {
   justify-content: center;
 }
 
+header a {
+  color: whitesmoke !important;
+}
+
 main {
   height: 600px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;
   /* background-color: red; */
 
@@ -44,6 +48,7 @@ main .submenu a {
   align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 18px;
 }
 main .submenu a:hover {
   background-color: gray;
@@ -51,4 +56,17 @@ main .submenu a:hover {
 main section.body {
   width: 75%;;
   /* background-color: orange; */
+}
+
+.listado {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.listado .card {
+  width: 30%;
+  border: 1px solid red;
+  height: 150px;
+  margin-bottom: 5px;
 }
