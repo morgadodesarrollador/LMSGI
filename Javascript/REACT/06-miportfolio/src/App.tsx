@@ -14,7 +14,7 @@ import { FibraPage } from './pages/Formacion/pages/fibra';
 import { CiscoPage } from './pages/Formacion/pages/cisco';
 import { CloudPage } from './pages/Servicios/pages/Cloud';
 import { HomePage } from './pages/Home/Home';
-import OrdenadoresList from './pages/Ordenadores/OrdenadoresList';
+import OrdenadoresListCard from './pages/Ordenadores/OrdenadoresListCard';
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
             <Route path='qsomos' element={ <QsomosPage />} />       
             <Route path='contacto' element={ <ContactoPage />} />           
           </Route>
-          <Route path='ordenadores' element={ <OrdenadoresList />} />  
+          <Route path='equipos' element={<OrdenadoresListCard />} />
         </Routes>
         
       </div>
