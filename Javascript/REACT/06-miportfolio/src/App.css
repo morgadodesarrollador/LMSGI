@@ -70,3 +70,24 @@ main section.body {
   height: 150px;
   margin-bottom: 5px;
 }
+
+.equipos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.equipos .equipo {
+  padding: 5px;
+  width: 30%;
+  border: 2px solid black;
+  min-height: 150px;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+}
+.equipo h4 {
+  padding: 3px;
+  text-align: center;
+  background-color: rgba(0,0,255,.3);
+}

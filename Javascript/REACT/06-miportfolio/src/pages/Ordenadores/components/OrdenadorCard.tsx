@@ -1,16 +1,11 @@
-import React, { FC } from 'react'
-import { IOrdenador } from '../interfaces/IOrdenadores';
 
-interface Props {
-    ordenador: IOrdenador
-}
+import React from 'react'
 
-const OrdenadorCard:FC<Props> = ({ ordenador }) => {
+export const OrdenadorCard = () => {
   return (
-    <div className='card'>
-      { ordenador.name }
+    <div className='equipo'>
+        OrdenadorCard
+        { equipo.nombre }
     </div>
   )
 }
-
-export default OrdenadorCard
